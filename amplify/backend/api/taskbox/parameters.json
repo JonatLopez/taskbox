@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "taskbox",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authtaskbox0ce89e58",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2022-07-14T13:46:16.594Z"
+}

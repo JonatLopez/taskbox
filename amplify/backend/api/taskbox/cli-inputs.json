@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "taskbox",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\Shmebulock\\Work\\ArteDigital\\spidertracks\\taskbox\\amplify\\backend\\api\\taskbox\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authtaskbox0ce89e58"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 7,
+        "apiKeyExpirationDate": "2022-07-21T14:15:46.031Z",
+        "keyDescription": "crmapikey"
+      }
+    ]
+  }
+}
