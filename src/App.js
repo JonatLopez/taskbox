@@ -1,12 +1,12 @@
 import './App.scss';
 import Provider from './provider';
-import { Header } from './stories/Header/Header';
+import AppRouter from './router/Router';
 
 function App() {
   return (
     <Provider>
       <div className="App">
-        <Header></Header>
+        <AppRouter />
       </div>
     </Provider>
   );
