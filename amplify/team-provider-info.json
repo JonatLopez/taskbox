@@ -10,6 +10,11 @@
       "StackName": "amplify-taskbox-dev-74910",
       "StackId": "arn:aws:cloudformation:us-west-1:664157992900:stack/amplify-taskbox-dev-74910/5cc5e970-0373-11ed-bf30-02fc41e527db",
       "AmplifyAppId": "d9o2909pqzvs6"
+    },
+    "categories": {
+      "auth": {
+        "taskbox0ce89e58": {}
+      }
     }
   }
 }

@@ -2,6 +2,7 @@ import React, { Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
 import Header from "../stories/Header";
+import { AmplifySignOut, withAuthenticator } from "@aws-amplify/ui-react"
 
 export default function AppRouter() {
   return (
