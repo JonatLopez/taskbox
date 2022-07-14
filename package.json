@@ -1,8 +1,8 @@
 {
   "name": "StorybookReact",
   "version": "0.1.0",
-  "description": "Starter template to get up and running quickly with React and Storybook",
-  "author": "Chromatic <https://chromatic.com/>",
+  "description": "CRM system",
+  "author": "Jonathan Lopez",
   "repository": {
     "type": "git",
     "url": ""
@@ -10,11 +10,9 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@aws-amplify/ui-react": "^3.1.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
-    "aws-amplify": "^4.3.27",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
